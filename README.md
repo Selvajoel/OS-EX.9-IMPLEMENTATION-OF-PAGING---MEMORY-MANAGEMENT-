@@ -1,23 +1,35 @@
-OS-EX.9-IMPLEMENTATION-OF-PAGING---MEMORY-MANAGEMENT-
-AIM:
-To write a c program to implement Paging technique for memory management.
+## OS-EX.9-IMPLEMENTATION-OF-PAGING---MEMORY-MANAGEMENT-
 
-ALGORITHM:
-Read all the necessary input from the keyboard.
+## AIM:
 
-Pages - Logical memory is broken into fixed - sized blocks.
+ To write a c program to implement Paging technique for memory management.
 
-Frames – Physical memory is broken into fixed – sized blocks.
 
-Calculate the physical address using the logical address
 
-Physical address = (Frame number * Frame size) + offset
+## ALGORITHM:
 
-Display the physical address.
+1. Read all the necessary input from the keyboard.
 
-Stop the process
 
-PROGRAM:
+2. Pages - Logical memory is broken into fixed - sized blocks.
+
+
+3. Frames – Physical memory is broken into fixed – sized blocks.
+
+
+4. Calculate the physical address using the logical address
+
+
+5. Physical address = (Frame number * Frame size) + offset
+
+
+6. Display the physical address.
+
+
+7. Stop the process
+
+## PROGRAM:
+```
 #include<stdio.h>
 #include<conio.h>
 int main()
@@ -59,7 +71,10 @@ printf("\nThe Physical Address is -- %d",pa);
 getch();
 }
 
-OUTPUT:
-p1
-RESULT:
+```
+## OUTPUT:
+<img width="352" alt="p1" src="https://github.com/silambarasan2004/OS-EX.9-IMPLEMENTATION-OF-PAGING---MEMORY-MANAGEMENT-/assets/119559917/d4885155-1acb-4c9e-afc5-e9efba47ffd6">
+
+## RESULT:
+
 Thus the implementation of paging technique for memory management is executed successfully.
